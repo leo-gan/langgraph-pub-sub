@@ -1,0 +1,7 @@
+langgraph
+ipython
+
+[dev]
+pytest
+black
+uv

@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: my_pub_sub_project
+Version: 0.1.0
+Summary: A pub/sub system using langgraph
+Author-email: Your Name <your.email@example.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: langgraph
+Requires-Dist: ipython
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: uv; extra == "dev"
+Dynamic: license-file
+
+# langgraph-pub-sub
+Examples and tutorial how to implement the Pub-Sub architecture with LangGraph.
